@@ -1,0 +1,101 @@
+Argument 1: uploaded_images/
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+ 10 Filenames from folder pet_images
+Filename = Dog_02.jpg     label=  dog
+
+ 1 file:               Dog_02.jpg
+
+Empty dictionary has 0 items
+Filename = Dice_01.jpg     label=  dice
+
+ 2 file:              Dice_01.jpg
+
+Empty dictionary has 1 items
+Filename = Giraffe_01.jpg     label=  giraffe
+
+ 3 file:           Giraffe_01.jpg
+
+Empty dictionary has 2 items
+Filename = Dog_01.jpg     label=  dog
+
+ 4 file:               Dog_01.jpg
+
+Empty dictionary has 3 items
+Printing all key-value pairs in dictionary
+Filename= Dog_02.jpg Pet Label= dog
+Filename= Dice_01.jpg Pet Label= dice
+Filename= Giraffe_01.jpg Pet Label= giraffe
+Filename= Dog_01.jpg Pet Label= dog
+Empty dictionary has 4 items
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     Dog_02.jpg  label:                        dog
+ 2 key:                    Dice_01.jpg  label:                       dice
+ 3 key:                 Giraffe_01.jpg  label:                    giraffe
+ 4 key:                     Dog_01.jpg  label:                        dog
+{'Dog_02.jpg': ['dog', 'golden retriever', 1], 'Dice_01.jpg': ['dice', 'golf ball', 1], 'Giraffe_01.jpg': ['giraffe', 'mortarboard', 1], 'Dog_01.jpg': ['dog', 'golden retriever', 1]}
+
+     MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:               golden retriever
+
+                   Dice_01.jpg: 
+Real:                       dice   Classifier:                      golf ball
+
+                Giraffe_01.jpg: 
+Real:                    giraffe   Classifier:                    mortarboard
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:               golden retriever
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+     MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:               golden retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                   Dice_01.jpg: 
+Real:                       dice   Classifier:                      golf ball  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                Giraffe_01.jpg: 
+Real:                    giraffe   Classifier:                    mortarboard  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:               golden retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+# Total Images 4 # Matches: 4 # NOT Matches: 0
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+Model Used: vgg
+
+Number of Images: 4 
+Number of Dog Images: 2 
+Number of not-a-dog images: 2
+pct_match:100.0
+pct_correct_dogs:100.0
+pct_correct_breed:0.0
+pct_correct_notdogs:100.0
+
+** Total Elapsed Runtime: 0:0:7
