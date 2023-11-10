@@ -87,7 +87,3 @@ def adjust_results4_isadog(results_dic, dogfile):
                 results_dic[key].extend((0, 1))
             else:
                 results_dic[key].extend((0, 0))
-            
-                
-   
-    

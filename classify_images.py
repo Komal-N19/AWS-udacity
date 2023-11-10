@@ -75,9 +75,8 @@ def classify_images(images_dir, results_dic, model):
     #defining empty dictionary
     
     for key in results_dic:
-        path_filename = results_dic[int(key)]['images_dir']
-        model = results_dic[int(key)]['model']
-        model_label = classifier(path_filename,model)
+       
+        model_label = classifier(images_dir+key,model)
         model_label = model_label.lower().strip()
         
         truth = results_dic[key][0]
